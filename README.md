@@ -1,4 +1,4 @@
-🚀 DEXplorer: Features
+# 🚀 DEXplorer: Features
 🔗 Decentralized Trading Platform
 Trade cryptocurrencies in a fully decentralized environment with transparency and security at its core.
 
@@ -29,7 +29,7 @@ Easily find trading pairs and tokens with robust filtering and sorting options.
 ✨ Interactive UI
 Clean and engaging design, incorporating real-time updates, smooth animations, and user-friendly workflows.
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
