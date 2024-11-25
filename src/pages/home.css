@@ -1,0 +1,252 @@
+/*Abraar Mohiuddin Syed
+103795990
+Styling for the Homepage*/
+/* Home.css */
+.home-container {
+    display: flex;
+    height: 100vh; /* Adjust to fit your design */
+    flex-wrap: wrap; /* Allow for wrapping elements */
+
+  }
+  
+  .half-container {
+    flex: 1;
+    padding: 20px;
+    overflow: hidden; /* Hide any overflow */
+    position: relative; 
+  }
+  
+  .text-half {
+    background-color: #080e38;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+
+
+  }
+  
+  .image-half {
+    background-color: #080e38;
+
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+  
+  .cover-image {
+  width: 100%; /* Change the width to 100% */
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  }
+  
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    padding: 0 20px; /* Add padding for spacing */
+
+  }
+  
+  .forte-text {
+    font-family: 'Forte', sans-serif; /* Apply Forte font or similar */
+    font-size: 40px; 
+  }
+  
+  .larger-text {
+    font-size: 52px; 
+    font-weight: bold;
+  }
+  
+  .smaller-text {
+    font-size: 18px; 
+    margin-top: 10px; /* Add spacing between text sections */
+  }
+  
+  .connect-button {
+    margin-top: 25px; /* Add spacing between the text and button */
+    padding: 20px 52px; 
+    background-color: #005aa0; /* Set button background color */
+    color: white;
+    border: none;
+    border-radius: 25px; 
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    display: block; 
+    margin: 10 auto; /* Center-align the button */
+
+
+  }
+  
+  .connect-button:hover {
+    background-color: #085590; /* Adjust button color on hover */
+  }
+
+
+  /* Additional Styles for the card grid */
+.card-container {
+  display: flex;
+  justify-content: space-between; /* Distribute cards evenly */
+  width: 100%; /* Cover full width */
+  margin-top: 60px; /* Add spacing between the cards and the rest of the content */
+
+}
+
+.card {
+  background-color: rgb(10, 18, 72);
+  padding: 60px;
+  border-radius: 8px;
+  margin: -60px;
+  height: 400px;
+  width: 240px;
+}
+  
+  
+.card-image {
+    width: 250px; /* Make the image fill the card */
+    height: 230px;
+    border-radius: 8px; /* Rounded corners */
+    object-fit: cover;
+    
+    
+
+}
+  
+  .card-title {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color:#080e38;
+    font-family: 'Forte', sans-serif; 
+    
+    
+  }
+  
+  .card-text {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #777777;
+    
+    
+  }
+  
+
+  .trending-heading {
+    font-size: 36px; 
+    font-weight: normal;
+    color: #080e38;
+    text-align: center; 
+    margin-top: 30px; 
+    margin-bottom: 45px; 
+    margin-left: 18px;
+    font-family: 'Calibri', sans-serif; 
+
+  }
+  
+/* CSS for the Table */
+.table-container {
+  margin-top: 100px;
+  margin-left: 380px; 
+  overflow-x: auto; 
+  
+}
+
+.asset-table {
+  width: 130%; 
+  border-collapse: collapse;
+  background-color: #ffffff;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  border: 2px solid #080e38;
+  
+}
+
+.asset-table th,
+.asset-table td {
+  padding: 20px; /* Increase padding for cells */
+  text-align: left;
+  color: black;
+  
+}
+
+.asset-table th {
+  background-color: #080e38; /* Header background color */
+  color: white;
+  
+}
+
+.asset-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.asset-table tbody tr:hover {
+  cursor: pointer;
+  background-color: #f0f0f0; /* Add a background color on hover */
+  transition: background-color 0.3s;
+}
+
+/* CSS to remove underlines from links */
+.asset-table tbody tr:hover a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* Footer Styles */
+.footer {
+  background-color: midnightblue;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-section,
+.middle-section,
+.right-section {
+  flex: 1;
+}
+
+.middle-section {
+  text-align: center; /* Center-align the middle section content */
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table-center {
+  display: flex;
+  justify-content: center;
+}
+
+.top-sales {
+  position: absolute;
+  margin-top: 20px; 
+  margin-left: 20px; 
+}
+
+

@@ -1,0 +1,103 @@
+/*This page is written by Yusheng Lun.*/
+
+.container {
+  background-color: #090E38;
+  text-align: center;
+  padding: 20px;
+}
+
+.box {
+  margin: 20px auto;
+  width: 80%;
+}
+
+
+
+
+
+
+/*This page is written by Yusheng Lun.*/
+
+.blog-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    max-width: 300px; /* Adjust as needed */
+  }
+  
+  .blog-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .blog-title {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  .blog-description {
+    margin-top: 10px;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .buy-now-button,
+  .cart-button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .buy-now-button:hover,
+  .cart-button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Footer Styles */
+.footer {
+  background-color: midnightblue;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-section,
+.middle-section,
+.right-section {
+  flex: 1;
+}
+
+.middle-section {
+  text-align: center; /* Center-align the middle section content */
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table-center {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+  

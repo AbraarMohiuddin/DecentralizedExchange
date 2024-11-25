@@ -1,0 +1,204 @@
+/*This page is written by Eric Newton.*/
+
+body, h1, h2, h3, p {
+    margin: 10px 0;
+    padding: 0;
+  }
+  
+  /* Basic styling for the app container */
+  .app-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    background-color: #080E38;
+    margin: -10; /* Remove top and bottom margin */
+    overflow: hidden; /* Hide any overflow */
+  }
+  
+  /* Styling for the left image container */
+  .image-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        margin: -10; /* Remove top and bottom margin */
+
+  }
+  
+  /* Styling for the image */
+  .image-container img {
+    width: 100%;
+    max-height: 80vh;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-left: 20px;
+  }
+  
+  /* Styling for the rest of the login form */
+  .login-form {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 350px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin: 0 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Add hover effect to the form */
+  .login-form:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Styling for the form header */
+  .login-form h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styling for the description */
+  .login-form p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styling for form elements */
+  .login-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-form input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+    transition: border-color 0.3s;
+  }
+  
+  /* Highlight input border on focus */
+  .login-form input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Styling for the Sign In button */
+  .login-form .action-button {
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.3s, background 0.3s;
+    width: 100%;
+    max-width: 300px;
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  /* Styling for the "Forgot Password" link */
+  .login-form .forgot-password-link {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-top: 10px;
+    transition: color 0.3s;
+  }
+  
+  /* Change link color on hover */
+  .login-form .forgot-password-link:hover {
+    color: #005AA0;
+  }
+  
+  /* Styling for the error message */
+  .error-message {
+    font-size: 16px;
+    color: #ff0000;
+    margin-top: 20px;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  /* Styling for the success message */
+  .success-message {
+    font-size: 48px; /* Larger font size for "Happy Trading" */
+    color: #28a745;
+    margin-top: 40px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, background 0.3s;
+  }
+  
+  /* Hover effect */
+  .success-message:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to bottom, #33cc33, #28a745);
+    color: #fff;
+  }
+  
+  /* Remove margin and padding from the body */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Footer Styles */
+.footer {
+    background-color: midnightblue;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left-section,
+  .middle-section,
+  .right-section {
+    flex: 1;
+  }
+  
+  .middle-section {
+    text-align: center; /* Center-align the middle section content */
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
